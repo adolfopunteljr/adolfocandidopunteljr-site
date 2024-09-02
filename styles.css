@@ -1,0 +1,89 @@
+/* Reset básico para remover margens e espaçamentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo básico do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cor de fundo cinza claro */
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Texto branco */
+    padding: 10px;
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo dos links de navegação */
+nav a {
+    color: #fff; /* Cor do texto dos links */
+    margin: 0 10px;
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Estilo do conteúdo principal */
+main {
+    background-color: #fff; /* Fundo branco para o conteúdo principal */
+    padding: 20px;
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo básico para o formulário de contato */
+form {
+    display: flex;
+    flex-direction: column; /* Exibe os campos um abaixo do outro */
+}
+
+/* Estilo para os rótulos do formulário */
+label {
+    margin-top: 10px;
+}
+
+/* Estilo para os campos de entrada de texto e área de texto */
+input, textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc; /* Bordas cinza claro */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilo para o botão de envio */
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto branca */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor para uma mão ao passar sobre o botão */
+}
+
+/* Estilo para as imagens */
+.image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaçamento entre as fileiras */
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Espaçamento entre as imagens */
+}
+
+.image-row img {
+    width: calc(25% - 10px); /* Ajusta o tamanho para 4 imagens por linha com espaçamento */
+    height: auto; /* Mantém a proporção da imagem */
+}
